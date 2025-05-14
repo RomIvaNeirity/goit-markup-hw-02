@@ -1,12 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
   color: #434455;
   background-color: #ffffff;
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   list-style-type: none;
 }
@@ -18,11 +19,9 @@ ul {
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
+
 .header-logo .logo-part {
   color: #2e2f42;
-}
-.footer-logo .logo-part {
-  color: #f4f4fd;
 }
 
 .nav-link {
@@ -32,25 +31,160 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
- {
-  color: #404bbf;
-}
+
 .contacts {
   font-style: normal;
 }
+
 .contacts-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.hero-btn {
+  cursor: pointer;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+
+.sctn-one {
+}
+
+.sctn-one-title {
+  visibility: hidden;
+}
+
+.sctn-one-list {
+}
+
+.sctn-one-item {
+}
+
+.sctn-one-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.sctn-one-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.sctn-two {
+}
+
+.sctn-two-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.sctn-two-list {
+}
+
+.sctn-two-item {
+}
+
+.sctn-two-image {
+}
+
+.sctn-two-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.sctn-two-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.sctn-three {
+}
+
+.sctn-three-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.sctn-three-list {
+}
+
+.sctn-three-item {
+}
+
+.sctn-three-image {
+}
+
+.sctn-three-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.sctn-three-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
 .page-footer {
   background-color: #2e2f42;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
